@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form Validation</title>
+</head>
+<body>
+    <h2>Registration Form Validation</h2>
+    <form id="RegistrationForm" onsubmit="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <div id="nameerror" class="error"></div>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <div id="emailerror" class="error"></div>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <div id="passworderror" class="error"></div>
+        <br>
+
+        <label for="PhoneNumber">PhoneNumber</label>
+        <input type="number" name="PhoneNumber" id="PhoneNumber">
+        <div id="PhoneNumbererror" class="error"></div>
+        <br>
+
+        <button type="submit">submit</button>
+
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
